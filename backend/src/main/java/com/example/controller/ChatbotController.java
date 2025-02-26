@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/chatbot")
+@RequestMapping("/api/chatbot")  //api 앤드포인트설정
 @CrossOrigin(origins = "*") // 프론트엔드 연동을 위해 CORS 설정
 public class ChatbotController {
 
